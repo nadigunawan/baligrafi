@@ -1,0 +1,29 @@
+/* body {
+  min-height: 3000px;
+} */
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+.btn-utama {
+  background-color: #26a9e1;
+}
+#projects {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 5rem;
+}
+.gallery-img {
+  width: 100%;
+}
+/* apapun yang ada di galerry setelah row akan di hilangkan paddingnya */
+#gallery .row > * {
+  padding: 0;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+}
